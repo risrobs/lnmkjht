@@ -27,3 +27,13 @@ html {
   font-size: 10rem;
   flex-flow: column;
 }
+div {
+  width: 80px;
+  height: 80px;
+  background-color: skyblue;
+}
+
+.scaled {
+  transform: scale(0.7); /* Equal to scaleX(0.7) scaleY(0.7) */
+  background-color: pink;
+}
