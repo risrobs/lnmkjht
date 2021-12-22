@@ -14,7 +14,7 @@
 <div class="scaled">Scaled</div>
 <div id="container"></div>
 
-
+<style>
    <div class="image" 
              style="text-align: center; 
                     margin-top: 5em;">
@@ -31,19 +31,17 @@
           </button>
         </div>
   
-     
+     </style>
         <script>
             img = document.getElementById("img1");
             
             function enlargeImg() {
-                img.style.width = "60%";
-                img.style.height = "auto";
+            
                 img.style.transition = "width 0.5s ease";
             }
           
             function resetImg() {
-                img.style.width = "40%";
-                img.style.height = "auto";
+              
                 img.style.transition = "width 0.5s ease";
             }
         </script>
