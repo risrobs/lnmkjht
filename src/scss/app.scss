@@ -28,6 +28,14 @@ html {
   flex-flow: column;
 }
 
-.image {
-    
-}
+img = document.getElementById("img1");
+            
+            function enlargeImg() {
+            
+                img.style.transition = "width 0.5s ease";
+            }
+          
+            function resetImg() {
+              
+                img.style.transition = "width 0.5s ease";
+            }
